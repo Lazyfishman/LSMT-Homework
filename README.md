@@ -34,7 +34,7 @@ We attempted to extend the project by modifying the output layer to test the mod
 ~~However, due to limited time and our own technical constraints, we encountered persistent encoding issues during the training process~~As a result, this work remains incomplete. The code and related files for this additional attempt are included as an appendix in the `price_estimate` folder.
 
 We used MAE, R², and RMSE as metrics instead of the F1 score to evaluate the model's performance in predicting the data.
-As the result ,We later trained the model using 20 epochs. Although the MAE and RMSE metrics performed well, the R² metric consistently showed a low fit which is almost equal 0, indicating that the model is not suitable for predicting future price.
+As the result ,We later trained the model using 20 epochs. Although the MAE and RMSE metrics performed well, the R² metric consistently showed a low fit which is almost equal 0, indicating that the model is not suitable for predicting future price.Our final weights are also included in the folder
 ## Future
 In the future, we plan to further explore the mechanisms of the LSTM model, study other research experiences in the field of economics, and improve our model.
 
