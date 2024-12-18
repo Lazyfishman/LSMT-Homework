@@ -1,9 +1,9 @@
 
-# LSMT Assignment
+# LSTM Assignment
 
 ## Overview
 
-This project is part of our coursework as business school students. The goal of this assignment is to understand and replicate the LSMT (Long Short-Term Memory) baseline model provided by our instructor. This work includes implementing the given baseline, addressing challenges during implementation, and analyzing its performance.
+This project is part of our coursework as business school students. The goal of this assignment is to understand and replicate the LSTM (Long Short-Term Memory) baseline model provided by our instructor. This work includes implementing the given baseline, addressing challenges during implementation, and analyzing its performance.
 
 ## Project Structure
 
@@ -11,7 +11,7 @@ The project is divided into two main parts:
 
 1. **Baseline Replication**
 
-   - Reproducing the LSMT baseline as instructed.
+   - Reproducing the LSTM baseline as instructed.
    - Understanding and implementing the key components of the model.
    - During the training process, we discovered that the original `main` function provided by the instructor could not run on our local machines. To address this, we modified the `main` function to ensure compatibility, while maintaining the same environment as specified in the baseline.
 
@@ -30,3 +30,7 @@ We attempted to extend the project by modifying the output layer to test the mod
 ~~However, due to limited time and our own technical constraints, we encountered persistent encoding issues during the training process~~As a result, this work remains incomplete. The code and related files for this additional attempt are included as an appendix in the `price_estimate` folder.
 
 We used MAE, R², and RMSE as metrics instead of the F1 score to evaluate the model's performance in predicting the data.
+As the result ,We later trained the model using 20 epochs. Although the MAE and RMSE metrics performed well, the R² metric consistently showed a low fit, indicating that the model is not suitable for predicting future price.
+## Future
+In the future, we plan to further explore the mechanisms of the LSTM model, study other research experiences in the field of economics, and improve our model.
+
