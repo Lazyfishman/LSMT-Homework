@@ -22,6 +22,7 @@ The project is divided into two main parts:
 ## Results
 
 Since no modifications were made to the model itself and we used the same environment as in the baseline, our results were identical to those provided by the instructor. The F1 score achieved was **0.981**.
+However, we slightly optimized the model, reducing the loss from the baseline value of 0.07 to 0.053.
 ## Additional Attempts
 
 We attempted to extend the project by modifying the output layer to test the model’s performance in predicting stock prices. To evaluate the model, we used residual analysis as a method to assess its accuracy and reliability.
