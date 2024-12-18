@@ -22,3 +22,8 @@ The project is divided into two main parts:
 ## Results
 
 Since no modifications were made to the model itself and we used the same environment as in the baseline, our results were identical to those provided by the instructor. The F1 score achieved was **0.981**.
+## Additional Attempts
+
+We attempted to extend the project by modifying the output layer to test the model’s performance in predicting stock prices. To evaluate the model, we used residual analysis as a method to assess its accuracy and reliability.
+
+However, due to limited time and our own technical constraints, we encountered persistent encoding issues during the training process. As a result, this work remains incomplete. The code and related files for this additional attempt are included as an appendix in the `price_estimate` folder.
