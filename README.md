@@ -27,4 +27,6 @@ However, we slightly optimized the model, reducing the loss from the baseline va
 
 We attempted to extend the project by modifying the output layer to test the model’s performance in predicting stock prices. To evaluate the model, we used residual analysis as a method to assess its accuracy and reliability.
 
-However, due to limited time and our own technical constraints, we encountered persistent encoding issues during the training process. As a result, this work remains incomplete. The code and related files for this additional attempt are included as an appendix in the `price_estimate` folder.
+~~However, due to limited time and our own technical constraints, we encountered persistent encoding issues during the training process.~~As a result, this work remains incomplete. The code and related files for this additional attempt are included as an appendix in the `price_estimate` folder.
+
+We used MAE, R², and RMSE as metrics instead of the F1 score to evaluate the model's performance in predicting the data.
